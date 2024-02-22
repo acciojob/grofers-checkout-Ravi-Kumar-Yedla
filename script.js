@@ -10,7 +10,7 @@ const getSum = () => {
 		total += parseInt(prices.textContent);
 	});
 	const totalRow = document.createElement('tr');
-	total.innerHTML = `<td colspan ="2"> Total price : ${totalRow.toFixed(2)}</td>`
+	total.innerHTML = `<td colspan ="2"> Total price : ${total.toFixed(2)}</td>`
    document.getElementByTagName('table').appendChild(totalRow);
 };
 
