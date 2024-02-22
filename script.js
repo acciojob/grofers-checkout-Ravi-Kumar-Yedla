@@ -9,7 +9,7 @@ const getSum = () => {
 	price.forEach(prices =>{
 		total += parseInt(prices.textContent);
 	});
-	const totalRow = Document.createElement('tr');
+	const totalRow = document.createElement('tr');
 	total.innerHTML = `<td colspan ="2"> Total price : ${totalRow.tofixed(2)}</td>`
    document.getElementByTagName('table').appendChild(totalRow);
 };
